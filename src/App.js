@@ -1,8 +1,8 @@
-import LandingPage from './LandingPage'
+import Home from './pages/Home'
 const App = () => {
   return (
     <div className="App">
-      <LandingPage />
+      <Home />
     </div>
   )
 }
