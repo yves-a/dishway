@@ -1,26 +1,25 @@
 import React from "react";
-import AppBar from '@mui/material/AppBar'
-import Box from '@mui/material/Box'
-import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
-import Button from '@mui/material/Button'
+
+import Margins from './Margins.jsx';
+import '../styles/header.scss';
+
+import fox from '../assets/images/fox.png';
 
 function Header () {
     return (
-        <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static" color="transparent" elevation={0}>
-          <Toolbar>
-            <Typography
-              variant="h6"
-              component="div"
-              sx={{ flexGrow: 1, color: 'black' }}
-            >
-              DishWay
-            </Typography>
-            <Button color="inherit">Sign Up</Button>
-          </Toolbar>
-        </AppBar>
-      </Box>
+      <Margins>
+        <div className="nav-bar">
+          <img
+            src={fox}
+            alt="fox"
+            loading="lazy"
+            className="nav-logo"
+          />
+          <h1>
+            DishWay
+          </h1>
+        </div>
+      </Margins>
     )
 }
 
