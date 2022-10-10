@@ -6,13 +6,30 @@
     align-items: center;
 }
 
+.landing-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .landing-text h1 {
     font-family: 'Tiempos Headline';
     font-style: normal;
     font-weight: 500;
     font-size: 56px;
     line-height: 66px;
-    margin-bottom: 1rem;
+    margin: 0;
+}
+
+.landing-buttons {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.landing-buttons > * {
+    margin-right: 1rem;
 }
 
 .landing-img {

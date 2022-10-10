@@ -3,7 +3,7 @@ import React from "react";
 import Margins from './Margins.jsx';
 import '../styles/header.scss';
 
-import fox from '../assets/images/fox.png';
+import fox from '../assets/images/fox_icon.png';
 
 function Header () {
     return (
