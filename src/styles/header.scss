@@ -1,0 +1,30 @@
+body { 
+    margin: 0;   /* Remove body margins */
+}
+
+.header {
+    width: 100%;
+    box-shadow: 0px 7px 1px -6px #FF6C4A;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bar h1 {
+    color: #FF6C4A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.nav-logo {
+    height: 4%;
+    width: 4%;
+    transform: scaleX(-1);
+    margin-right: 1rem;
+}
