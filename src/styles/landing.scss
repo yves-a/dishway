@@ -1,5 +1,6 @@
 .landing {
     width: 100%;
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,6 +34,7 @@
 }
 
 .landing-img {
-    height: 30%;
-    width: 30%;
+    height: 50%;
+    width: 50%;
+    z-index: -1;
 }

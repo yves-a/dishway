@@ -1,3 +1,12 @@
+body { 
+    margin: 0;   /* Remove body margins */
+}
+
+.header {
+    width: 100%;
+    box-shadow: 0px 7px 1px -6px #FF6C4A;
+}
+
 .nav-bar {
     display: flex;
     flex-direction: row;

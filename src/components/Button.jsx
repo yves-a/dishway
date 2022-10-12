@@ -2,7 +2,7 @@ import React from 'react';
 
 function Button({ text, borderColour, bgColour }) {
     return (
-        <div style={{width: "162px", 
+        <button style={{width: "162px", 
                     height: "62px", 
                     background:`${bgColour}`,
                     borderStyle: 'solid',
@@ -22,7 +22,7 @@ function Button({ text, borderColour, bgColour }) {
                     textAlign: 'center',
                     whiteSpace: 'pre-line'}}>
             <p dangerouslySetInnerHTML={{__html: `${text}`}}></p>
-        </div>
+        </button>
     )
 }
 
