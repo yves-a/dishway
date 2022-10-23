@@ -1,15 +1,13 @@
 import React from "react";
 
-import Header from '../components/Header.jsx';
-import Landing from '../components/Landing.jsx';
-import AboutUs from '../components/AboutUs.jsx'
+import Header from '../components/Header.jsx'
+import Landing from '../components/Landing.jsx'
 
 const Home = () => {
   return (
     <>
-      <Header/>
+      <Header />
       <Landing/>
-      <AboutUs/>
     </>
   )
 }

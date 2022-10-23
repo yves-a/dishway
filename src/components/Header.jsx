@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Margins from './Margins.jsx';
 import '../styles/header.scss';
@@ -9,7 +10,7 @@ function Header () {
     return (
       <div className="header">
         <Margins>
-          <div className="nav-bar">
+          <Link to="/" className="nav-bar" style={{ textDecoration: "none" }}>
             <img
               src={fox}
               alt="fox"
@@ -19,7 +20,7 @@ function Header () {
             <h1>
               DishWay
             </h1>
-          </div>
+          </Link>
         </Margins>
       </div>
     )

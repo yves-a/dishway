@@ -2,11 +2,37 @@ import React from "react";
 
 import Margins from './Margins.jsx'
 
-function AboutUs () {
+function AboutUs (props) {
     return (
-      <Margins>
-
-      </Margins>
+      <div ref={props.innerRef}>
+        <Margins>
+          <p>about us!!!!</p>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+        </Margins>
+      </div>
       //   <Box
       //   sx={{
       //     flexGrow: 1,
