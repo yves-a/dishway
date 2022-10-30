@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../styles/survey.scss'
+import '../styles/appsurvey.scss'
 import { Helmet } from 'react-helmet'
 import Margins from './Margins'
 import app from '../assets/images/app.png'
