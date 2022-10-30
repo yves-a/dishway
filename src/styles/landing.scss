@@ -1,48 +1,49 @@
 .landing {
-    width: 100%;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
 }
 
 .landing-text {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .landing-text h1 {
-    font-family: 'Tiempos Headline';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 56px;
-    line-height: 66px;
-    margin: 0;
+  font-family: 'Tiempos Headline';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 66px;
+  margin: 0;
 }
 
 .landing-buttons {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .landing-buttons > * {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .survey-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .button-hover:hover {
-    transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 .landing-img {
-    height: 40%;
-    width: 40%;
-    z-index: -1;
+  height: 50%;
+  width: 50%;
+  z-index: -1;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/footer.scss'
 import Margins from './Margins.jsx'
-import Button from './Button'
+// import Button from './Button'
 function Footer() {
   return (
     <div className="footer">

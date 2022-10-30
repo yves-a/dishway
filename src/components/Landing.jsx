@@ -5,7 +5,7 @@ import '../styles/landing.scss'
 import Margins from './Margins.jsx'
 import Button from './Button.jsx'
 import AboutUs from '../components/AboutUs.jsx'
-import Survey from '../components/Survey.jsx'
+// import Survey from '../components/Survey.jsx'
 
 import fox from '../assets/images/fox.png'
 import AppSurvey from './AppSurvey'
