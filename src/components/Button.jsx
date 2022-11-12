@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Button({ text, borderColour, bgColour }) {
+function Button(props) {
     return (
         <button style={{width: "162px", 
                     height: "62px", 
-                    background:`${bgColour}`,
+                    background:`${props.bgColour}`,
                     borderStyle: 'solid',
-                    borderColor: `${borderColour}`,
+                    borderColor: `${props.borderColour}`,
                     borderWidth: '1px',
                     display: 'flex',
                     flexDirection: 'column',
@@ -20,8 +20,9 @@ function Button({ text, borderColour, bgColour }) {
                     fontSize: '14px',
                     lineHeight: '14px',
                     textAlign: 'center',
-                    whiteSpace: 'pre-line'}}>
-            <p dangerouslySetInnerHTML={{__html: `${text}`}}></p>
+                    whiteSpace: 'pre-line',
+                    }}>
+            <p dangerouslySetInnerHTML={{__html: `${props.text}`}}></p>
         </button>
     )
 }
